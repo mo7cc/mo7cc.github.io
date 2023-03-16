@@ -1,0 +1,20 @@
+{
+  "name": "mo7-cc",
+  "private": true,
+  "version": "0.1.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "sync": "./_shell/GitSync.sh",
+    "deploy": "./_shell/Deploy.sh"
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.5"
+  },
+  "dependencies": {
+    "less": "^4.1.3"
+  }
+}
