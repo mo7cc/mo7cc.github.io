@@ -1,7 +1,8 @@
 {
   "name": "mo7-cc",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,11 +11,14 @@
     "deploy": "./_shell/Deploy.sh"
   },
   "devDependencies": {
-    "chalk": "^5.2.0",
-    "typescript": "^4.9.5",
-    "vite": "^3.2.5"
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
   },
   "dependencies": {
-    "less": "^4.1.3"
+    "axios": "^1.4.0",
+    "cash-dom": "^8.1.5",
+    "normalize.css": "^8.0.1",
+    "picnic": "^7.1.0",
+    "sass": "^1.62.1"
   }
 }
