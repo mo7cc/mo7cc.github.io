@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://mo7.cc/en/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://mo7.cc/en/</id>
+  <title>Mo7</title>
+  <subtitle>Mo7 - Simple and happy, as it should be.</subtitle>
+  <icon>https://mo7.cc/pwa/512.png</icon>
+  <logo>https://mo7.cc/pwa/72.png</logo>
+  <updated>2024-12-05T08:02:30.481Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://mo7.cc/en/atom.xml"/>
+  <link rel="alternate" href="https://mo7.cc/en/"/>
+  <category term="Guide"/>
+  <category term="Cherry"/>
+  <category term="Dragon Fruit"/>
+  <category term="Fruit"/>
+  <category term="Strawberry"/>
+  <category term="Vegetable"/>
+  <category term="Banana"/>
+  <category term="Apple"/>
+  <contributor>
+    <name>Ms.Hope</name>
+  </contributor>
+  <entry>
+    <title type="text">Intro Page</title>
+    <id>https://mo7.cc/en/intro.html</id>
+    <link href="https://mo7.cc/en/intro.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>Place your introduction and profile here.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>Place your introduction and profile here.</p>
+]]></content>
+    <published>2024-11-27T05:02:44.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Features Demo</title>
+    <id>https://mo7.cc/en/demo/</id>
+    <link href="https://mo7.cc/en/demo/"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Catalog</h2>
+<ul>
+<li>
+<p><a href="/en/demo/page.html" target="_blank">Page Config</a></p>
+</li>
+<li>
+<p><a href="/en/demo/disable.html" target="_blank">Function Disable</a></p>
+</li>
+<li>
+<p><a href="/en/demo/encrypt.html" target="_blank">Encryption Demo</a></p>
+</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<h2>Catalog</h2>
+<ul>
+<li>
+<p><a href="/en/demo/page.html" target="_blank">Page Config</a></p>
+</li>
+<li>
+<p><a href="/en/demo/disable.html" target="_blank">Function Disable</a></p>
+</li>
+<li>
+<p><a href="/en/demo/encrypt.html" target="_blank">Encryption Demo</a></p>
+</li>
+</ul>
+]]></content>
+    <category term="Guide"/>
+    <published>2024-11-27T05:02:44.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Disabling layout and features</title>
+    <id>https://mo7.cc/en/demo/disable.html</id>
+    <link href="https://mo7.cc/en/demo/disable.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[<p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p>
+<!-- more -->
+<p>This page is an demo that disables the following features:</p>
+<ul>
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Breadcrumb</li>
+<li>Page information</li>
+<li>Contributors</li>
+<li>Edit link</li>
+<li>Update time</li>
+<li>Prev/Next link</li>
+<li>Comment</li>
+<li>Footer</li>
+<li>Back to top button</li>
+</ul>
+]]></content>
+    <category term="Guide"/>
+    <published>2024-11-27T05:02:44.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Page Config</title>
+    <id>https://mo7.cc/en/demo/page.html</id>
+    <link href="https://mo7.cc/en/demo/page.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[<p>Content before <code>more</code> comment is regarded as page excerpt.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Content before <code>more</code> comment is regarded as page excerpt.</p>
+<!-- more -->
+<h2>Page Information</h2>
+<p>You can set page information in Markdown’s Frontmatter.</p>
+<ul>
+<li>The author is Ms.Hope.</li>
+<li>The writing date is January 1, 2020</li>
+<li>Category is "Guide"</li>
+<li>Tags are "Page Config" and "Guide"</li>
+</ul>
+<h2>Page Content</h2>
+<p>You are free to write your Markdown here.</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Assets</p>
+<ul>
+<li>
+<p>You can place images besides your Markdown files, but you should use <strong>relative links</strong> (i.e.: starting with <code>./</code>) for them.</p>
+</li>
+<li>
+<p>For images in <code>.vuepress/public</code> directory, please use absolute links (i.e.: starting with <code>/</code>) for them.</p>
+</li>
+</ul>
+</div>
+<p>The theme contains a custom badge:</p>
+<blockquote>
+<p>A dark blue badge text badge at the end of line. </p>
+</blockquote>
+<h2>Page Structure</h2>
+<p>This page should contain:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">BreadCrumb</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">Title and information</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/page.html#header-list" target="_blank" rel="noopener noreferrer">TOC (Table of Contents)</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">Meta information including update time and contributors</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">Comments</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">Navbar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">Sidebar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">Footer</a></li>
+<li>Back to top button</li>
+</ul>
+<p>You can customize them in theme options and page frontmatter.</p>
+]]></content>
+    <author>
+      <name>Ms.Hope</name>
+    </author>
+    <category term="Guide"/>
+    <contributor>
+      <name>Ms.Hope</name>
+    </contributor>
+    <published>2020-01-01T00:00:00.000Z</published>
+    <rights>No Copyright</rights>
+  </entry>
+  <entry>
+    <title type="text">Cherry</title>
+    <id>https://mo7.cc/en/posts/cherry.html</id>
+    <link href="https://mo7.cc/en/posts/cherry.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Cherry"/>
+    <published>2022-01-09T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Dragon Fruit</title>
+    <id>https://mo7.cc/en/posts/dragonfruit.html</id>
+    <link href="https://mo7.cc/en/posts/dragonfruit.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Dragon Fruit"/>
+    <category term="Fruit"/>
+    <published>2022-01-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Strawberry</title>
+    <id>https://mo7.cc/en/posts/strawberry.html</id>
+    <link href="https://mo7.cc/en/posts/strawberry.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Fruit"/>
+    <category term="Strawberry"/>
+    <published>2022-01-11T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Tomato</title>
+    <id>https://mo7.cc/en/posts/tomato.html</id>
+    <link href="https://mo7.cc/en/posts/tomato.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Vegetable"/>
+    <published>2022-01-12T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Banana 1</title>
+    <id>https://mo7.cc/en/posts/banana/1.html</id>
+    <link href="https://mo7.cc/en/posts/banana/1.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Banana"/>
+    <category term="Fruit"/>
+    <published>2022-01-05T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Banana 2</title>
+    <id>https://mo7.cc/en/posts/banana/2.html</id>
+    <link href="https://mo7.cc/en/posts/banana/2.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>A banana article being stared with number <code>10</code>.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>A banana article being stared with number <code>10</code>.</p>
+<!-- more -->
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Banana"/>
+    <category term="Fruit"/>
+    <published>2022-01-06T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Banana 3</title>
+    <id>https://mo7.cc/en/posts/banana/3.html</id>
+    <link href="https://mo7.cc/en/posts/banana/3.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Banana"/>
+    <published>2022-01-07T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Banana 4</title>
+    <id>https://mo7.cc/en/posts/banana/4.html</id>
+    <link href="https://mo7.cc/en/posts/banana/4.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Banana"/>
+    <published>2022-01-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Apple 1</title>
+    <id>https://mo7.cc/en/posts/apple/1.html</id>
+    <link href="https://mo7.cc/en/posts/apple/1.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Apple"/>
+    <published>2022-01-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Apple 2</title>
+    <id>https://mo7.cc/en/posts/apple/2.html</id>
+    <link href="https://mo7.cc/en/posts/apple/2.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>A apple article being stared.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>A apple article being stared.</p>
+<!-- more -->
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Apple"/>
+    <published>2022-01-02T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Apple 3</title>
+    <id>https://mo7.cc/en/posts/apple/3.html</id>
+    <link href="https://mo7.cc/en/posts/apple/3.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Apple"/>
+    <category term="Fruit"/>
+    <published>2022-01-03T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Apple 4</title>
+    <id>https://mo7.cc/en/posts/apple/4.html</id>
+    <link href="https://mo7.cc/en/posts/apple/4.html"/>
+    <updated>2024-11-27T05:02:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content>
+    <category term="Apple"/>
+    <category term="Fruit"/>
+    <published>2022-01-04T00:00:00.000Z</published>
+  </entry>
+</feed>
