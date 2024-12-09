@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://mo7.cc/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://mo7.cc/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Mo7</title>
+    <link>https://mo7.cc/en/</link>
+    <description>Mo7 - Simple and happy, as it should be.</description>
+    <language>en-US</language>
+    <pubDate>Mon, 09 Dec 2024 08:33:13 GMT</pubDate>
+    <lastBuildDate>Mon, 09 Dec 2024 08:33:13 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <image>
+      <title>Mo7</title>
+      <url>https://mo7.cc/pwa/72.png</url>
+      <link>https://mo7.cc/en/</link>
+    </image>
+    <category>Guide</category>
+    <category>Cherry</category>
+    <category>Dragon Fruit</category>
+    <category>Fruit</category>
+    <category>Strawberry</category>
+    <category>Vegetable</category>
+    <category>Apple</category>
+    <category>Banana</category>
+    <item>
+      <title>Intro Page</title>
+      <link>https://mo7.cc/en/intro.html</link>
+      <guid>https://mo7.cc/en/intro.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Intro Page</source>
+      <description>Intro Page Place your introduction and profile here.</description>
+      <pubDate>Wed, 27 Nov 2024 05:02:44 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Place your introduction and profile here.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Features Demo</title>
+      <link>https://mo7.cc/en/demo/</link>
+      <guid>https://mo7.cc/en/demo/</guid>
+      <source url="https://mo7.cc/en/rss.xml">Features Demo</source>
+      <description>Catalog</description>
+      <category>Guide</category>
+      <pubDate>Wed, 27 Nov 2024 05:02:44 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>Catalog</h2>
+<ul>
+<li>
+<p><a href="/en/demo/page.html" target="_blank">Page Config</a></p>
+</li>
+<li>
+<p><a href="/en/demo/disable.html" target="_blank">Function Disable</a></p>
+</li>
+<li>
+<p><a href="/en/demo/encrypt.html" target="_blank">Encryption Demo</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Disabling layout and features</title>
+      <link>https://mo7.cc/en/demo/disable.html</link>
+      <guid>https://mo7.cc/en/demo/disable.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Disabling layout and features</source>
+      <description>You can disable some function and layout on the page by setting the Frontmatter of the page.</description>
+      <category>Guide</category>
+      <pubDate>Wed, 27 Nov 2024 05:02:44 GMT</pubDate>
+      <content:encoded><![CDATA[<p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p>
+<!-- more -->
+<p>This page is an demo that disables the following features:</p>
+<ul>
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Breadcrumb</li>
+<li>Page information</li>
+<li>Contributors</li>
+<li>Edit link</li>
+<li>Update time</li>
+<li>Prev/Next link</li>
+<li>Comment</li>
+<li>Footer</li>
+<li>Back to top button</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Page Config</title>
+      <link>https://mo7.cc/en/demo/page.html</link>
+      <guid>https://mo7.cc/en/demo/page.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Page Config</source>
+      <description>Content before more comment is regarded as page excerpt.</description>
+      <category>Guide</category>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Content before <code>more</code> comment is regarded as page excerpt.</p>
+<!-- more -->
+<h2>Page Information</h2>
+<p>You can set page information in Markdown’s Frontmatter.</p>
+<ul>
+<li>The author is Ms.Hope.</li>
+<li>The writing date is January 1, 2020</li>
+<li>Category is "Guide"</li>
+<li>Tags are "Page Config" and "Guide"</li>
+</ul>
+<h2>Page Content</h2>
+<p>You are free to write your Markdown here.</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Assets</p>
+<ul>
+<li>
+<p>You can place images besides your Markdown files, but you should use <strong>relative links</strong> (i.e.: starting with <code>./</code>) for them.</p>
+</li>
+<li>
+<p>For images in <code>.vuepress/public</code> directory, please use absolute links (i.e.: starting with <code>/</code>) for them.</p>
+</li>
+</ul>
+</div>
+<p>The theme contains a custom badge:</p>
+<blockquote>
+<p>A dark blue badge text badge at the end of line. </p>
+</blockquote>
+<h2>Page Structure</h2>
+<p>This page should contain:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">BreadCrumb</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">Title and information</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/page.html#header-list" target="_blank" rel="noopener noreferrer">TOC (Table of Contents)</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">Meta information including update time and contributors</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">Comments</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">Navbar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">Sidebar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">Footer</a></li>
+<li>Back to top button</li>
+</ul>
+<p>You can customize them in theme options and page frontmatter.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Cherry</title>
+      <link>https://mo7.cc/en/posts/cherry.html</link>
+      <guid>https://mo7.cc/en/posts/cherry.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Cherry</source>
+      <description>Cherry Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Cherry</category>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Dragon Fruit</title>
+      <link>https://mo7.cc/en/posts/dragonfruit.html</link>
+      <guid>https://mo7.cc/en/posts/dragonfruit.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Dragon Fruit</source>
+      <description>Dragon Fruit Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Dragon Fruit</category>
+      <category>Fruit</category>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Strawberry</title>
+      <link>https://mo7.cc/en/posts/strawberry.html</link>
+      <guid>https://mo7.cc/en/posts/strawberry.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Strawberry</source>
+      <description>Strawberry Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Fruit</category>
+      <category>Strawberry</category>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tomato</title>
+      <link>https://mo7.cc/en/posts/tomato.html</link>
+      <guid>https://mo7.cc/en/posts/tomato.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Tomato</source>
+      <description>Tomato Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Vegetable</category>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple 1</title>
+      <link>https://mo7.cc/en/posts/apple/1.html</link>
+      <guid>https://mo7.cc/en/posts/apple/1.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Apple 1</source>
+      <description>Apple 1 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Apple</category>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple 2</title>
+      <link>https://mo7.cc/en/posts/apple/2.html</link>
+      <guid>https://mo7.cc/en/posts/apple/2.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Apple 2</source>
+      <description>A apple article being stared.</description>
+      <category>Apple</category>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>A apple article being stared.</p>
+<!-- more -->
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple 3</title>
+      <link>https://mo7.cc/en/posts/apple/3.html</link>
+      <guid>https://mo7.cc/en/posts/apple/3.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Apple 3</source>
+      <description>Apple 3 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Apple</category>
+      <category>Fruit</category>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple 4</title>
+      <link>https://mo7.cc/en/posts/apple/4.html</link>
+      <guid>https://mo7.cc/en/posts/apple/4.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Apple 4</source>
+      <description>Apple 4 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Apple</category>
+      <category>Fruit</category>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Banana 1</title>
+      <link>https://mo7.cc/en/posts/banana/1.html</link>
+      <guid>https://mo7.cc/en/posts/banana/1.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Banana 1</source>
+      <description>Banana 1 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Banana</category>
+      <category>Fruit</category>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Banana 2</title>
+      <link>https://mo7.cc/en/posts/banana/2.html</link>
+      <guid>https://mo7.cc/en/posts/banana/2.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Banana 2</source>
+      <description>A banana article being stared with number 10.</description>
+      <category>Banana</category>
+      <category>Fruit</category>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>A banana article being stared with number <code>10</code>.</p>
+<!-- more -->
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Banana 3</title>
+      <link>https://mo7.cc/en/posts/banana/3.html</link>
+      <guid>https://mo7.cc/en/posts/banana/3.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Banana 3</source>
+      <description>Banana 3 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Banana</category>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Banana 4</title>
+      <link>https://mo7.cc/en/posts/banana/4.html</link>
+      <guid>https://mo7.cc/en/posts/banana/4.html</guid>
+      <source url="https://mo7.cc/en/rss.xml">Banana 4</source>
+      <description>Banana 4 Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Banana</category>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Heading 2</h2>
+<p>Here is the content.</p>
+<h3>Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
