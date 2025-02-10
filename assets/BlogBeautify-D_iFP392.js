@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-DlAUqK2U.js";import{r as n,j as s,o as r,f as a,b as l}from"./app-xmKNq0tl.js";const c={};function f(_,e){const o=n("ClientOnly");return r(),s(o,null,{default:a(()=>e[0]||(e[0]=[l("div",{class:"none"},"主题美化",-1)])),_:1})}const m=t(c,[["render",f],["__file","BlogBeautify.vue"]]);export{m as default};
