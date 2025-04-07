@@ -1,0 +1,1 @@
+import{g as n,r as t,i as s,o as a,w as l,b as r}from"./app-LVGRbcoX.js";const c=n({__name:"Hitokoto",setup(i){return(p,e)=>{const o=t("ClientOnly");return a(),s(o,null,{default:l(()=>e[0]||(e[0]=[r("div",{class:"none"},"一言插件",-1)])),_:1})}}});export{c as default};
