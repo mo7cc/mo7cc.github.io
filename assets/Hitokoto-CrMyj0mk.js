@@ -1,0 +1,1 @@
+import{g as s,h as a,n as t,u as r,r as u,i as l,o as c,w as i,b as _}from"./app-DVgpILnm.js";const d=s({__name:"Hitokoto",setup(p){return a(()=>{t(()=>{}),r().afterEach(e=>{t(()=>{setTimeout(()=>{},50)})})}),(o,e)=>{const n=u("ClientOnly");return c(),l(n,null,{default:i(()=>e[0]||(e[0]=[_("div",{class:"none"},"一言插件",-1)])),_:1,__:[0]})}}});export{d as default};
