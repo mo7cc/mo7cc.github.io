@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://mo7.cc/sitemap.xml

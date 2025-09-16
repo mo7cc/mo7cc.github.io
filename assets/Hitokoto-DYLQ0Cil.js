@@ -1,0 +1,1 @@
+import{h as s,g as a,n as t,u as r,r as u,i as l,o as c,w as i,d as p}from"./app-CDcD9CqU.js";const d=s({__name:"Hitokoto",setup(_){return a(()=>{t(()=>{}),r().afterEach(e=>{t(()=>{setTimeout(()=>{},50)})})}),(o,e)=>{const n=u("ClientOnly");return c(),l(n,null,{default:i(()=>[...e[0]||(e[0]=[p("div",{class:"none"},"一言插件",-1)])]),_:1})}}});export{d as default};
